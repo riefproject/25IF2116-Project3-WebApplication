@@ -39,9 +39,13 @@ echo view('layouts/header', ['title' => $title]);
                             <tr>
                                 <td><?= esc($mhs['nim']) ?></td>
                                 <td><?= esc($mhs['nama']) ?></td>
-                                <td><?= esc($mhs['jenis_kelamin']) == 'L' ? 'Laki-laki' : 'Perempuan' ?></td>
+                                <td class="text-center">
+                                    <span class="badge <?= esc($mhs['jenis_kelamin']) == 'L' ? 'badge-blue' : 'badge-pink' ?>">
+                                        <?= esc($mhs['jenis_kelamin']) == 'L' ? 'Laki-laki' : 'Perempuan' ?>
+                                    </span>
+                                </td>
                                 <td><?= esc($mhs['tanggal_lahir']) ?></td>
-                                <td>
+                                <td class="text-center">
                                     <div class="action-buttons">
                                         <a href="/mahasiswa/detail/<?= $mhs['nim'] ?>" class="btn btn-primary btn-sm">Detail</a>
                                         <a href="/mahasiswa/edit/<?= $mhs['nim'] ?>" class="btn btn-primary btn-sm">Edit</a>

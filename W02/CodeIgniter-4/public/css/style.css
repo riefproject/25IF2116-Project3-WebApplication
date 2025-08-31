@@ -314,7 +314,7 @@ main {
   margin-bottom: 1.5rem;
 }
 
-.table {
+.table, .data-table {
   width: 100%;
   margin-bottom: 1rem;
   background-color: transparent;
@@ -323,13 +323,15 @@ main {
   overflow: hidden;
 }
 
-.table th, .table td {
+.table th, .table td,
+.data-table th, .data-table td {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #eee;
 }
 
-.table thead th {
+.table thead th,
+.data-table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #eee;
   color: var(--gray);
@@ -337,36 +339,22 @@ main {
   background-color: #f8f9fa;
 }
 
-.table tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.03);
-}
-
-.data-table {
-  width: 100%;
-  margin-bottom: 1rem;
-  border-collapse: collapse;
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.data-table th, .data-table td {
-  padding: 0.75rem;
-  border-top: 1px solid #eee;
-}
-
-.data-table thead th {
-  background-color: #f8f9fa;
-  border-bottom: 2px solid #eee;
-  font-weight: 600;
-}
-
+.table tbody tr:hover,
 .data-table tbody tr:hover {
   background-color: rgba(0, 0, 0, 0.03);
+}
+
+.table th:not(:last-child),
+.table td:not(:last-child),
+.data-table th:not(:last-child),
+.data-table td:not(:last-child) {
+  border-right: 0.5px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Action buttons in table */
 .action-buttons {
   display: flex;
+  justify-content: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
@@ -374,6 +362,37 @@ main {
 .action-buttons .btn {
   min-width: 80px;
   text-align: center;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  font-size: 0.85em;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 999px;
+  color: white;
+  background-color: var(--gray);
+}
+
+.badge-primary, .badge-blue {
+  background-color: var(--primary);
+}
+
+.badge-success, .badge-green {
+  background-color: var(--success);
+}
+
+.badge-danger, .badge-red {
+  background-color: var(--danger);
+}
+
+.badge-pink {
+  background-color: #e83e8c;
 }
 
 /* Alerts */

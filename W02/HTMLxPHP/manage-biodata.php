@@ -77,9 +77,9 @@ require_once 'layouts/header.php';
               <td><?= $i++ ?></td>
               <td><?= e($row['nim']) ?></td>
               <td><?= e($row['nama']) ?></td>
-              <td style="text-align: center;"><span class="badge <?= $jkClass ?>"><?= e($jk) ?></span></td>
+              <td class="text-center"><span class="badge <?= $jkClass ?>"><?= e($jk) ?></span></td>
               <td><?= e($row['tanggal_lahir']) ?></td>
-              <td style="text-align: center;">
+              <td class="text-center">
                 <div class="action-buttons">
                   <a href="edit-biodata.php?nim=<?= urlencode($row['nim']) ?>" class="btn btn-warning btn-sm">Edit</a>
                   <a href="delete-biodata.php?nim=<?= urlencode($row['nim']) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Delete</a>
