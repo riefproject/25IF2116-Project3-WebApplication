@@ -30,9 +30,9 @@ require_once 'layouts/header.php';
                 <th>#</th>
                 <th>NIM</th>
                 <th>Nama</th>
-                <th>Jenis Kelamin</th>
+                <th style="text-align: center;">Jenis Kelamin</th>
                 <th>Tanggal Lahir</th>
-                <th>Aksi</th>
+                <th style="text-align: center;">Aksi</th>
               </tr>
             </thead>
             <tbody>
@@ -46,9 +46,9 @@ require_once 'layouts/header.php';
                   <td><?= $i++ ?></td>
                   <td><?= e($row['nim']) ?></td>
                   <td><?= e($row['nama']) ?></td>
-                  <td><span class="badge <?= $jkClass ?>"><?= e($jk) ?></span></td>
+                  <td style="text-align: center;"><span class="badge <?= $jkClass ?>"><?= e($jk) ?></span></td>
                   <td><?= e($row['tanggal_lahir']) ?></td>
-                  <td>
+                  <td style="text-align: center;">
                     <div class="action-buttons">
                       <a href="detail-biodata.php?nim=<?= urlencode($row['nim']) ?>" class="btn btn-primary btn-sm">Lihat Detail</a>
                     </div>

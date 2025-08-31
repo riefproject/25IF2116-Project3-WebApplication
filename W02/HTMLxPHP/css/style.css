@@ -5,6 +5,8 @@
   --success-dark: #27ae60;
   --danger: #e74c3c;
   --danger-dark: #c0392b;
+  --warning: #f0ad4e;
+  --warning-dark: #ec971f;
   --light: #f8f9fa;
   --dark: #343a40;
   --gray: #6c757d;
@@ -309,6 +311,19 @@ select.form-control {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.btn-warning {
+  color: white;
+  background-color: var(--warning);
+  border-color: var(--warning);
+}
+
+.btn-warning:hover, .btn-warning:focus {
+  background-color: var(--warning-dark);
+  border-color: var(--warning-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
 .btn-sm {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
@@ -371,9 +386,15 @@ select.form-control {
   background-color: rgba(0, 0, 0, 0.03);
 }
 
+.data-table th:not(:last-child),
+.data-table td:not(:last-child) {
+  border-right: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
 /* Action buttons in table */
 .action-buttons {
   display: flex;
+  justify-content: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
