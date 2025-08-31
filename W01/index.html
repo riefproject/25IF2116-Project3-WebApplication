@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Arief F-sa Wijaya | Portfolio</title>
+        <link rel="stylesheet" href="src/css/style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+        <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon" />
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <div class="navbar">
+                <div class="logo">rief's portfolio</div>
+                <button
+                    type="button"
+                    class="navbar-toggler collapsed"
+                    id="navbar-toggler"
+                    aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#exp-proj">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section class="home fade-in" id="home">
+            <div class="home-content">
+                <div class="text">
+                    <div class="text-one">Hello! I am</div>
+                    <div class="text-two">Arief F-sa Wijaya</div>
+                    <div class="text-three">
+                        Student of D3 Informatics Engineering
+                    </div>
+                    <div class="text-four">Politeknik Negeri Bandung</div>
+                </div>
+                <div class="text">
+                    <br />
+                    <p>
+                        <a href="mailto:talktorief@gmail.com">
+                            <i class="bx bx-envelope"></i>
+                            talktorief@gmail.com
+                        </a>
+                    </p>
+                    <br />
+                    <p><i class="bx bx-map"></i>West Bandung, Indonesia</p>
+                    <br />
+                    <p>
+                        <a href="https://github.com/riefproject">
+                            <i class="bi bi-github"></i> riefproject
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr style="margin: 0 5rem; border: 0.5px solid #2b65f8" />
+
+        <!-- About Section -->
+        <section class="about fade-in" id="about">
+            <div class="content">
+                <div class="title"><span>About Me</span></div>
+                <div class="about-details">
+                    <div class="left">
+                        <img src="src/img/saya.png" alt="Profile Picture" />
+                    </div>
+                    <div class="right">
+                        <p>
+                            Saya adalah mahasiswa D3 Teknik Informatika di Politeknik Negeri Bandung dengan ketertarikan mendalam pada pemrograman, algoritma, dan pengembangan perangkat lunak. Sejak SMA, saya aktif dalam pemrograman kompetitif (<i>Competitive Programming</i>) dan terbiasa menghadapi tantangan yang menuntut pemikiran logis, efisiensi, dan ketelitian dalam menyusun solusi.
+                        </p>
+                        <br />
+                        <p>
+                            Saya percaya bahwa pengembangan perangkat lunak bukan sekadar menulis kode, tetapi memahami permasalahan secara menyeluruh dan merancang solusi yang terstruktur. Dalam setiap proyek, saya mengutamakan pendekatan sistematis, mulai dari perancangan arsitektur, pengelolaan kompleksitas logika, hingga memastikan pengalaman pengguna yang mulus. Prinsip efisiensi, keterbacaan, dan modularitas selalu menjadi pedoman saya dalam menulis program.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills fade-in" id="skills">
+            <div class="content">
+                <div class="title"><span>My Skills</span></div>
+                <p style="text-align: justify;">
+                    Saya memiliki fondasi teknis yang kuat dalam pemrograman dan rekayasa perangkat lunak, didukung oleh pengalaman langsung dalam membangun berbagai jenis aplikasi. Selain keahlian teknis, saya juga terbiasa bekerja dalam tim, memimpin proyek kecil, serta terbuka terhadap umpan balik dan pembelajaran berkelanjutan.
+                </p>
+                <div class="skills-details">
+                    <div class="text">
+                        <h3 class="topic">Bahasa & Teknologi</h3>
+                        
+                        <div class="tech-categories">
+                            <div class="tech-category">
+                                <h4 class="tech-category-title">Programming Languages</h4>
+                                <div class="tech-items">
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" />
+                                        <span>C</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                                        <span>C++</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+                                        <span>Java</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+                                        <span>Python</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-category">
+                                <h4 class="tech-category-title">Web Development</h4>
+                                <div class="tech-items">
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+                                        <span>HTML5</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+                                        <span>CSS3</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" />
+                                        <span>PHP</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-category">
+                                <h4 class="tech-category-title">Frameworks & Libraries</h4>
+                                <div class="tech-items">
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+                                        <span>React</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel" />
+                                        <span>Laravel</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+                                        <span>Node.js</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" />
+                                        <span>Bootstrap</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" />
+                                        <span>Tailwind</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt" />
+                                        <span>Qt</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="topic" style="margin-top: 2rem">Tools & Workflow</h3>
+                        <div class="tech-categories">
+                            <div class="tech-category">
+                                <h4 class="tech-category-title">Development Tools</h4>
+                                <div class="tech-items">
+                                <div class="tech-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                                    <span>Git</span>
+                                </div>
+                                <div class="tech-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+                                    <span>GitHub</span>
+                                </div>
+                                <div class="tech-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab" />
+                                    <span>GitLab</span>
+                                </div>
+                                <div class="tech-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
+                                    <span>VS Code</span>
+                                </div>
+                                <div class="tech-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+                                    <span>Figma</span>
+                                </div>
+                                <div class="tech-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" alt="CMake" />
+                                    <span>CMake</span>
+                                </div>
+                                <div class="tech-item">
+                                    <img src="https://www.vectorlogo.zone/logos/openssl/openssl-official.svg" alt="OpenSSL" />
+                                    <span>OpenSSL</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <h3 class="topic" style="margin-top: 2rem">Fokus Algoritmik</h3>
+                        <ul>
+                            <li>Dynamic Programming (Top-down & Bottom-up)</li>
+                            <li>Greedy Strategies & Ad-Hoc Problem Solving</li>
+                            <li>Divide & Conquer, Binary Search, Recursion</li>
+                            <li>Bit Manipulation, Prefix Sum, Sliding Window</li>
+                        </ul>
+
+                    </div>
+                    <div style="text-align: center;">
+                        <h3 class="topic" style="margin-top: 3rem; margin-bottom: 1.5rem; position: relative; display: inline-block; padding-bottom: 0.5rem;">
+                            <i class="bx bx-bar-chart-alt-2" style="margin-right: 0.5rem; color: #4070f4;"></i>Achievement Stats
+                            <span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 60%; height: 3px; background: linear-gradient(90deg, transparent, #4070f4, transparent);"></span>
+                        </h3>
+                    </div>
+                    <div class="boxes">
+                        <div class="box">
+                            <i class="bx bx-trophy" style="color: rgba(64, 112, 244, 0.8); font-size: 1.75rem; margin-bottom: 0.75rem;"></i>
+                            <div class="per">10+</div>
+                            <div class="topic">
+                                Competitive Programming Contests
+                            </div>
+                        </div>
+                        <div class="box">
+                            <i class="bx bx-code-block" style="color: rgba(64, 112, 244, 0.8); font-size: 1.75rem; margin-bottom: 0.75rem;"></i>
+                            <div class="per">300+</div>
+                            <div class="topic">
+                                Problems Solved
+                            </div>
+                        </div>
+                        <div class="box">
+                            <i class="bx bx-code-curly" style="color: rgba(64, 112, 244, 0.8); font-size: 1.75rem; margin-bottom: 0.75rem;"></i>
+                            <div class="per">8+</div>
+                            <div class="topic">
+                                Programming Languages
+                            </div>
+                        </div>
+                        <div class="box">
+                            <i class="bx bx-task" style="color: rgba(64, 112, 244, 0.8); font-size: 1.75rem; margin-bottom: 0.75rem;"></i>
+                            <div class="per">10+</div>
+                            <div class="topic">Projects Completed</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Coding Profiles Section -->
+                    <div style="text-align: center;">
+                        <h3 class="topic fade-in" style="margin-top: 3rem; margin-bottom: 1.5rem; position: relative; display: inline-block; padding-bottom: 0.5rem;">
+                            <i class="bx bx-code-alt" style="margin-right: 0.5rem; color: #4070f4;"></i>Coding Profiles
+                            <span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 60%; height: 3px; background: linear-gradient(90deg, transparent, #4070f4, transparent);"></span>
+                        </h3>
+                    </div>
+                    <div class="coding-profiles fade-in">
+                        <a href="https://codeforces.com/profile/feeera" target="_blank" class="profile-card">
+                            <img src="src/img/codeforces.webp" alt="Codeforces">
+                            <div class="profile-info">
+                                <h4>Codeforces</h4>
+                                <p><u>lihat profile &gt;</u></p>
+                            </div>
+                        </a>
+                        <a href="https://tlx.toki.id/profiles/fsarf_" target="_blank" class="profile-card">
+                            <img src="https://raw.githubusercontent.com/ia-toki/judgels/master/judgels-client/src/assets/images/logo.png" alt="TLX Toki">
+                            <div class="profile-info">
+                                <h4>TLX by. Tim Olimpiade Komputer Indonesia</h4>
+                                <p><u>lihat profile &gt;</u></p>
+                            </div>
+                        </a>
+                        <a href="https://leetcode.com/u/riefproject" target="_blank" class="profile-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
+                            <div class="profile-info">
+                                <h4>LeetCode</h4>
+                                <p><u>lihat profile &gt;</u></p>
+                            </div>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/areee" target="_blank" class="profile-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png" alt="HackerRank">
+                            <div class="profile-info">
+                                <h4>HackerRank</h4>
+                                <p><u>lihat profile &gt;</u></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="fade-in" id="edu">
+            <div class="timeline-container">
+                <div class="title" style="text-align: center;"><span>Educational Background</span></div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - 2024</div>
+                        <div class="timeline-content">
+                            <div>
+                                <img
+                                    src="src/img/smansa.png"
+                                    alt="SMA Negeri 1 Subang Logo"
+                                    style="height: calc(1em + 1rem + 1em)" />
+                            </div>
+                            <div style="margin-left: 1rem">
+                                <h3>SMA Negeri 1 Subang</h3>
+                                <p>Matematika dan Ilmu Pengetahuan Alam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - Sekarang</div>
+                        <div class="timeline-content">
+                            <div>
+                                <img
+                                    src="src/img/polban.png"
+                                    alt="Politeknik Negeri Bandung Logo"
+                                    style="height: calc(1em + 1rem + 1em)" />
+                            </div>
+                            <div style="margin-left: 1rem">
+                                <h3>Politeknik Negeri Bandung</h3>
+                                <p>D3 Teknik Informatika</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="exp" class="exp fade-in" style="padding-bottom: 4rem;">
+            <div class="content">
+                <div class="title"><span>Experience</span></div>
+                <div class="exp-details">
+                    <div class="left">
+                        <img src="src/img/biossmansa.png" alt="BIoS Logo" />
+                    </div>
+                    <div class="right">
+                        <p class="topic">
+                            Ketua Divisi Pemrograman, Brainware of SMANSA
+                        </p>
+                        <p>(Klub Komputer di SMA Negeri 1 Subang)</p>
+                        <p>Periode: 2022-2023</p>
+                        <br/>
+                        <p style="text-align:justify;">
+                            Selama menjabat sebagai Ketua Divisi Pemrograman, saya menyusun kurikulum pelatihan, mengatur kegiatan belajar, dan membimbing anggota untuk menghadapi lomba maupun membuat proyek internal. Fokus saya adalah menciptakan lingkungan belajar yang terstruktur dan kolaboratif, terutama dalam pengembangan logika dan algoritma dasar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Achievements Section -->
+        <section id="ach" class="ach fade-in" style="background-color: #f0f8ff !important">
+            <div class="content">
+                <div class="title"><span>Achievements</span></div>
+                <div class="ach-details">
+                    <div class="left">
+                        <img src="src/img/osn.png" alt="OSN Logo" />
+                    </div>
+                    <div class="right">
+                        <p class="topic">Olimpiade Sains Nasional</p>
+                        <div>
+                            <p style="text-align: start">
+                                Bidang: Komputer/Informatika
+                            </p>
+                            <br />
+                        </div>
+                        <p>
+                            Saya pernah mengikuti Olimpiade Sains Nasional (OSN) bidang Informatika yang diselenggarakan oleh Pusat Prestasi Nasional. Kompetisi ini menantang peserta untuk menyelesaikan persoalan algoritmik secara efisien dan terstruktur, dengan pendekatan yang logis dan mendalam terhadap setiap masalah yang diberikan.
+                        </p>
+                        <br />
+                        <p>
+                            Dari proses seleksi tingkat kabupaten hingga provinsi, saya banyak belajar tentang cara berpikir komputasional, pengelolaan waktu dalam menyusun strategi, dan pentingnya latihan yang konsisten. Pengalaman ini sangat berperan dalam membentuk dasar saya di bidang competitive programming.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr style="order: 0.5px solid #2b65f8" />
+        <!-- Project Experience Section -->
+        <section class="exp-proj fade-in" id="exp-proj">
+            <div class="content">
+                <div class="title"><span>Project Experience</span></div>
+                <div class="repo-cards">
+                    <div class="repo-card">
+                        <div
+                            style="
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                            ">
+                            <h3 style="margin-bottom: 1rem">
+                                🎮 Block Shooter — Game 2D Berbasis C
+                            </h3>
+                            <div class="description">
+                                <p style="margin-bottom: 1rem">
+                                    Game 2D berbasis <strong>C + Raylib</strong>, dikembangkan tim dari nol. Saya merancang kerangka utama game, sistem UI, dan manajemen aset. Selain itu, saya mengintegrasikan <strong>reestruct</strong>, library struktur data buatan saya, untuk mengatur data internal game.
+                                </p>
+                                <ul class="emoji-list">
+                                    <li>
+                                        <span class="emoji">🛠️</span
+                                        ><span class="text">
+                                            Implementasi <em>game loop</em> modular dengan state manager</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">🎨</span
+                                        ><span class="text">
+                                            Sistem asset loader (sprite, audio) + resource cleanup</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">📊</span
+                                        ><span class="text">
+                                            Struktur data custom (list, stack) → dipakai untuk manajemen level & event</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">💾</span
+                                        ><span class="text">
+                                            Skor & progres tersimpan dengan file I/O</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <a
+                                href="https://github.com/riefproject/21IF009-Project2-A5"
+                                class="btn btn-primary"
+                                style="
+                                    text-decoration: none;
+                                    padding: 0.5rem 1rem;
+                                    background-color: #4070f4;
+                                    color: white;
+                                    border-radius: 5px;
+                                "
+                                >View Repo</a
+                            >
+                        </div>
+                    </div>
+                    <div class="repo-card">
+                        <div
+                            style="
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                            ">
+                            <h3 style="margin-bottom: 1rem">
+                                ⚡ reefficiency — Telegram Finance Bot
+                            </h3>
+                            <div class="description">
+                                <p style="margin-bottom: 1rem">
+                                    Bot Telegram untuk mencatat dan mengelola transaksi keuangan pribadi. Dibangun dengan <strong>Python</strong> dan integrasi <strong>Google Sheets API</strong> supaya data bisa tersimpan rapi dan mudah diakses kembali.
+                                </p>
+                                <ul class="emoji-list">
+                                    <li>
+                                        <span class="emoji">🤖</span>
+                                        <span class="text">
+                                            Integrasi <strong>Telegram Bot API</strong> untuk input data interaktif
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="emoji">☁️</span>
+                                        <span class="text">
+                                            Penyimpanan cloud via <strong>Google Sheets</strong> sebagai database ringan
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="emoji">📝</span>
+                                        <span class="text">
+                                            Input menggunakan <strong>natural language</strong> berkat integrasi AI
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="emoji">📊</span>
+                                        <span class="text">
+                                            Fitur laporan sederhana (summary bulanan)
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a
+                                href="https://github.com/riefproject/reefficiency"
+                                class="btn btn-primary"
+                                style="
+                                    text-decoration: none;
+                                    padding: 0.5rem 1rem;
+                                    background-color: #4070f4;
+                                    color: white;
+                                    border-radius: 5px;
+                                "
+                                >View Repo</a>
+                        </div>
+                    </div>
+                    <div class="repo-card">
+                        <div
+                            style="
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                            ">
+                            <h3 style="margin-bottom: 1rem">
+                                🗂️ AlpenliCloud — File Manager Simulasi
+                            </h3>
+                            <div class="description">
+                                <p style="margin-bottom: 1rem">
+                                    File manager berbasis GUI dengan <strong>C++ + Raylib/RayGUI</strong>, mensimulasikan sistem file modern. Semua fitur dasar dibangun menggunakan <strong>struktur data dari nol</strong>.
+                                </p>
+                                <ul class="emoji-list">
+                                    <li>
+                                        <span class="emoji">🌲</span
+                                        ><span class="text">
+                                            Tree structure → representasi direktori & hierarki file</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">🔄</span
+                                        ><span class="text">
+                                            Stack + Queue → Undo/Redo & clipboard (Copy/Cut/Paste)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">📋</span
+                                        ><span class="text">
+                                            Linked List → daftar file/folder dinamis</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">⌨️</span
+                                        ><span class="text">
+                                            Keyboard shortcut terintegrasi untuk navigasi cepat</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <a
+                                href="https://github.com/riefproject/alpenlicloud"
+                                class="btn btn-primary"
+                                style="
+                                    text-decoration: none;
+                                    padding: 0.5rem 1rem;
+                                    background-color: #4070f4;
+                                    color: white;
+                                    border-radius: 5px;
+                                "
+                                >View Repo</a
+                            >
+                        </div>
+                    </div>
+                    <div class="repo-card">
+                        <div
+                            style="
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                            ">
+                            <h3 style="margin-bottom: 1rem">
+                                🔐 Xcreeptor — Aplikasi Enkripsi File
+                            </h3>
+                            <div class="description">
+                                <p style="margin-bottom: 1rem">
+                                    Aplikasi GUI untuk <strong>enkripsi & dekripsi file</strong>, dikembangkan dengan <strong>C++ + RayGUI</strong>. Fokus pada keamanan berlapis sekaligus antarmuka yang sederhana.
+                                </p>
+                                <ul class="emoji-list">
+                                    <li>
+                                        <span class="emoji">🔒</span
+                                        ><span class="text">
+                                            Algoritma enkripsi kombinasi: Substitusi Cipher + AES-256</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">🔑</span
+                                        ><span class="text">
+                                            Autentikasi user dengan hashing SHA-256</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">💾</span
+                                        ><span class="text">
+                                            Penyimpanan lokal terenkripsi di <code>.dat</code> file</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">🖥️</span
+                                        ><span class="text">
+                                            GUI modular dengan <em>RayGUI</em> + event handling</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <a
+                                href="https://github.com/riefproject/xcreeptor"
+                                class="btn btn-primary"
+                                style="
+                                    text-decoration: none;
+                                    padding: 0.5rem 1rem;
+                                    background-color: #4070f4;
+                                    color: white;
+                                    border-radius: 5px;
+                                "
+                                >View Repo</a
+                            >
+                        </div>
+                    </div>
+                    <div class="repo-card">
+                        <div
+                            style="
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                            ">
+                            <h3 style="margin-bottom: 1rem">
+                                🎬 Bioskopku — Sistem Pemesanan Tiket
+                            </h3>
+                            <div class="description">
+                                <p style="margin-bottom: 1rem">
+                                    Aplikasi berbasis terminal (<strong>C</strong>) untuk simulasi pemesanan tiket bioskop dengan peran berbeda (Admin, Staff, Customer).
+                                </p>
+                                <ul class="emoji-list">
+                                    <li>
+                                        <span class="emoji">👤</span
+                                        ><span class="text">
+                                            Role-based access system dengan autentikasi sederhana</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">🪑</span
+                                        ><span class="text">
+                                            CRUD jadwal & kursi dengan validasi otomatis</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">📊</span
+                                        ><span class="text">
+                                            Penyimpanan transaksi berbasis <strong>CSV</strong></span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span class="emoji">📝</span
+                                        ><span class="text">
+                                            Modul laporan pendapatan → file I/O</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <a
+                                href="https://github.com/riefproject/21IF1001-DDPFinalProject-Bioskopku"
+                                class="btn btn-primary"
+                                style="
+                                    text-decoration: none;
+                                    padding: 0.5rem 1rem;
+                                    background-color: #4070f4;
+                                    color: white;
+                                    border-radius: 5px;
+                                "
+                                >View Repo</a
+                            >
+                        </div>
+                    </div>
+                    <div class="repo-card">
+                        <div
+                            style="
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                            ">
+                            <h3 style="margin-bottom: 1rem">
+                                🧱 reestruct — Library Struktur Data C
+                            </h3>
+                            <div class="description">
+                                <p style="margin-bottom: 1rem">
+                                    Library C reusable untuk <strong>struktur data dasar</strong>: Linked List, Stack, Queue, Deque. Digunakan kembali di Block Shooter sebagai fondasi manajemen data.
+                                </p>
+                                <ul class="emoji-list">
+                                    <li>
+                                        <span class="emoji">🧩</span>
+                                        <span class="text"
+                                            >API type-agnostic dengan <code>void*</code>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="emoji">⚡</span>
+                                        <span class="text"
+                                            >Fokus pada efisiensi & keamanan memori
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="emoji">📚</span>
+                                        <span class="text"
+                                            >Dokumentasi fungsi konsisten (push, pop, enqueue, dequeue, dll.)
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="emoji">♻️</span>
+                                        <span class="text"
+                                            >Cocok dipakai ulang di proyek C lainnya
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a
+                                href="https://github.com/riefproject/reestruct"
+                                class="btn btn-primary"
+                                style="
+                                    text-decoration: none;
+                                    padding: 0.5rem 1rem;
+                                    background-color: #4070f4;
+                                    color: white;
+                                    border-radius: 5px;
+                                "
+                                >View Repo</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 3rem; margin-bottom: 1rem;">
+                    <a 
+                        href="https://github.com/riefproject" 
+                        target="_blank" 
+                        class="btn"
+                        style="
+                            display: inline-block;
+                            font-weight: 500;
+                            text-decoration: none;
+                            padding: 0.7rem 1.8rem;
+                            border-radius: 0.5rem;
+                            background-color: transparent;
+                            color: #4070f4;
+                            border: 2px solid #4070f4;
+                            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                        "
+                        onmouseover="this.style.backgroundColor='#4070f4'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(64, 112, 244, 0.25)';"
+                        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#4070f4'; this.style.transform='translateY(0)'; this.style.boxShadow='none';"
+                    >
+                        lainnya &gt;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact fade-in" id="contact">
+            <div class="content">
+                <div class="title"><span>Let's Talk</span></div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p>
+                            Punya ide atau proyek yang ingin diwujudkan? Mari kita diskusikan bersama! Saya siap berkolaborasi untuk menciptakan hasil yang luar biasa.
+                        </p>
+                        <div class="social-links">
+                            <h3>🌍 Connect with Me</h3>
+                            <a
+                                href="https://instagram.com/fsarf_"
+                                title="Instagram"
+                                ><i class="bx bxl-instagram"></i
+                            ></a>
+                            <a
+                                href="https://github.com/riefproject"
+                                title="Github"
+                                ><i class="bx bxl-github"></i
+                            ></a>
+                            <a
+                                href="https://linkedin.com/in/arief-f-sa-wijaya-9aa935319"
+                                title="LinkedIn"
+                                ><i class="bx bxl-linkedin"></i
+                            ></a>
+                            <a href="mailto:talktorief@gmail.com" title="Gmail"
+                                ><i class="bx bxl-gmail"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form
+                            action="https://formspree.io/f/mzzeavab"
+                            method="POST">
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Name"
+                                required />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                required />
+                            <input
+                                type="text"
+                                name="subject"
+                                placeholder="Subject"
+                                required />
+                            <textarea
+                                name="message"
+                                placeholder="Message"
+                                rows="5"
+                                style="
+                                    width: 100%;
+                                    min-height: 50px;
+                                    max-height: 100px;
+                                    resize: vertical;
+                                "
+                                required></textarea>
+                            <div class="captcha">
+                                <div
+                                    class="h-captcha"
+                                    data-sitekey="3d4a7fe6-28a0-4732-ba4e-5f1cdae2a9f2"></div>
+                            </div>
+                            <button type="submit">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="src/js/script.js"></script>
+    </body>
+</html>
